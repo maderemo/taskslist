@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Roboto:wght@400;500&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+main {
+    margin: 0 auto;
+    width: 80vw;
+    height: 100vh;
+    justify-items: center;
+}
+
+h1{
+    font-family: 'Poppins', sans-serif;
+    padding: 70px;
+    justify-content: center;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-items: start;
+    margin: auto;
+}
+
+.input-block{
+    width: 400px;
+    margin: 4px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+label{
+    font-size: 1.5rem;
+}
+
+.task-input-name, .task-input-deadline{
+    width: 280px;
+    height: 24px;
+    padding: 4px;
+    font-size: 1.2rem;
+}
+
+
+.task-submit{
+    width: 200px;
+    margin: 16px auto;
+    padding: 8px;
+    border: 1px solid #ededed;
+    color: #fff;
+    background-color: #036603;
+}
+
+.error{
+    color: red;
+    margin: 0 auto;
+    text-align: center;
+    margin: -8px auto;
+}
+
+table{
+    margin: 16px auto 0;
+    width: 80%;
+}
+
+td{
+    text-align: center;
+    padding: 4px;
+}
+
+td input:hover{
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+
+
+td button{
+    padding: 4px 8px;
+    background-color: #ff2525;
+    color: #fff;
+    border: 1px solid #ededed;
+    border-radius: 8px;
+}
+
+td button:hover{
+    background-color: #cc2525;
+    transform: scale(1.1);
+    transition: 0.2s;
+}

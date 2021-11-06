@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <title>My tasks list</title>
+</head>
+<body>
+    <main class="container">
+        <h1>Task List</h1>
+        <form id="form-block">
+            <div class="input-block">
+                <label>Task:</label>
+                <input type="text" name="name" class="task-input-name" />
+            </div>
+            <div class="input-block">
+                <label>Deadline:</label>
+                <input type="date" name= "deadline" class="task-input-deadline" />  
+            </div>
+            <button type="submit" class="task-submit" >Add Task</button>
+        </form>
+        <p class="error" style="display: none;">Complete all fields!</p>
+        <table id="task-list">
+        </thead>
+            <tr>
+                <th>Done</th>
+                <th>Task</th>
+                <th>Deadline</th>
+                <th>Delete</th>
+            </tr>
+        <thead>
+                
+        </table>
+
+        <!-- <input type="checkbox" class="task-input-done" /> -->
+    </main>
+    
+
+
+    <script src="script.js"></script>
+</body>
+</html>
